@@ -31,4 +31,14 @@ HEADERS += \
         mainwindow.h
 
 FORMS += \
-        mainwindow.ui
+		mainwindow.ui
+
+RESOURCES += \
+    icons/icon.qrc
+
+DISTFILES += \
+    icons/icon.rc
+
+RC_FILE += \
+	icons/icon.rc
+

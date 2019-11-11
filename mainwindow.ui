@@ -24,10 +24,14 @@
   <property name="windowTitle">
    <string>Apache Manager</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="icons/icon.qrc">
+    <normaloff>:/images/apache.png</normaloff>:/images/apache.png</iconset>
+  </property>
   <widget class="QWidget" name="centralWidget">
    <property name="font">
     <font>
-     <pointsize>10</pointsize>
+     <pointsize>9</pointsize>
     </font>
    </property>
    <layout class="QGridLayout" name="gridLayout">
@@ -476,6 +480,8 @@
   <widget class="QStatusBar" name="statusBar"/>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources/>
+ <resources>
+  <include location="icons/icon.qrc"/>
+ </resources>
  <connections/>
 </ui>
